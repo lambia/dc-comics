@@ -7,10 +7,14 @@ import Footer from "./components/Footer.jsx";
 
 function App() {
   return <>
-    <Navbar />
-    <Jumbotron />
-    <ComicsList />
-    <Services />
+    <header>
+      <Navbar />
+    </header>
+    <main>
+      <Jumbotron />
+      <ComicsList />
+      <Services />
+    </main>
     <Footer />
   </>
 
