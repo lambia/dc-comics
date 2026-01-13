@@ -1,6 +1,8 @@
 const Jumbotron = () => {
 
-	return <div>Jumbotron</div>
+	return <div id="jumbotron">
+		<img src="/img/jumbotron.jpg" />
+	</div>
 
 }
 
