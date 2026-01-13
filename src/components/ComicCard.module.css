@@ -1,0 +1,15 @@
+.card {
+	width: calc((100% - 5rem) / 6);
+}
+
+.card img {
+	width: 100%;
+	aspect-ratio: 1;
+	object-fit: cover;
+	object-position: top;
+}
+
+.card h3 {
+	font-size: 0.8rem;
+	font-weight: 300;
+}
